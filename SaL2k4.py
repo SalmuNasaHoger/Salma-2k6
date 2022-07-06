@@ -80,7 +80,7 @@ class Main:
 		self.cp = []
 		self.loop = 0
 		try:
-			plr = requests.get('https://pastebin.com/raw/qX0FG9MT').text
+			plr = requests.get('https://pastebin.com/raw/Xaw4y6fU').text
 			if basesplit in plr:
 				key = basesplit
 				stat = ("\033[0;92mPREMIUM")
